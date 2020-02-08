@@ -10,27 +10,26 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      address: {
-        street: {
-          type: Sequelize.STRING,
-          allowNull: false,
-        },
-        number: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-        },
-        complement: {
-          type: Sequelize.STRING,
-          allowNull: false,
-        },
-        state: {
-          type: Sequelize.STRING,
-          allowNull: false,
-        },
-        cep: {
-          type: Sequelize.STRING,
-          allowNull: false,
-        },
+
+      street: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      number: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      complement: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      state: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      cep: {
+        type: Sequelize.STRING,
+        allowNull: false,
       },
     });
   },
